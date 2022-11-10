@@ -1,0 +1,128 @@
+#body{
+  background-color: #050712;
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Syne Tactile', cursive; */
+}
+/* ScrollbarS */
+  ::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px #222831;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #050712;
+}
+
+.navbar {
+  padding: 0 0 2.5rem;
+  background-color: #070819;
+  margin-left: -20px;
+  margin-right: -10px;
+
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+#navbarNav{
+  color: #FFFFFF;
+  padding-left: 1060px;
+
+}
+.collapse {
+  color: #ffffff;
+  background-color: #070819; 
+}
+@media screen and (min-width: 975px) {
+  #navbarSupportedContent {
+    padding-left: 840px;
+  }
+}
+
+
+/* left profile */
+#profiledetail{
+  background-color: #070819;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 1150px;
+}
+.card-1{
+  padding: 30px 0 0 20px;
+}
+.card-body{
+  background-color: #0A0C26;
+  color: #FFFFFF;
+}
+#card1{
+  border-color: #0A0C26;
+  border-top: #0A0C26;
+}
+.avater{
+  border-radius: 50%;
+  padding-bottom: 20px;
+}
+.textbox{
+  border-color: #0A0C26;
+  background-color: #222831;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+
+#chart{
+  margin-left: -220px;
+  padding-top: 30px;
+}
+
+
+/* footer */
+.footerconn{
+
+color: #FFFFFF;
+padding: 20px;
+
+  }
+.footerleg{
+
+  color: #FFFFFF;
+  padding: 20px;
+}
+.ful{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+footer{
+  background-color: #070819;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 120px;
+}
+.social-icon {
+  color: #FFFFFF;
+  margin: 20px 10px;
+}

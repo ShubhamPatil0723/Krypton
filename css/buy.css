@@ -1,0 +1,138 @@
+#body {
+  background-color: #050712;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* ScrollbarS */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px #222831;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #050712;
+}
+
+.navbar {
+  padding: 0 0 2.5rem;
+  background-color: #070819;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 30px;
+}
+.nav-item {
+  padding: 0 7px;
+}
+.nav-link {
+  font-size: 1.2rem;
+}
+.collapse {
+  color: #ffffff;
+  background-color: #070819;
+}
+@media screen and (min-width: 975px) {
+  #navbarSupportedContent {
+    padding-left: 840px;
+  }
+}
+
+.buyform {
+  margin: 250px 50px;
+  padding: 100px;
+  background-color: #070819;
+}
+.buymain {
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+#form1 {
+  background-color: #070819;
+  color: #ffffff;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#value {
+  color: #ffffff;
+  border-color: black;
+  background-color: #222831;
+}
+#ethAmount {
+  color: #ffffff;
+  border-color: black;
+  background-color: #222831;
+}
+
+.arr {
+  /* background-color: black; */
+  height: 40px;
+  width: 0.01px;
+  margin-top: 20px;
+  margin-left: 110px;
+  padding-left: 18px;
+}
+.arrow1 {
+  width: 140px;
+  /* height: 40px; */
+}
+.arrow2 {
+  width: 140px;
+  /* height: 40px; */
+}
+.fa-light {
+  color: #ffffff;
+}
+.butbuy {
+  margin-top: 50px;
+}
+
+.butsell {
+  color: #ffffff;
+  margin-left: 280px;
+  margin-top: 50px;
+}
+.sell {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* footer */
+.footerconn {
+  color: #ffffff;
+  padding: 20px;
+}
+.footerleg {
+  color: #ffffff;
+  padding: 20px;
+}
+.ful {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer {
+  background-color: #070819;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 120px;
+}
+.social-icon {
+  margin: 20px 10px;
+  color: #ffffff;
+}
